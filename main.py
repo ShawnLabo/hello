@@ -29,7 +29,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def handle():
-    return f"Hello, {NAME}! @ {host}"
+    return f"Hello, {NAME}! @ {host}\n"
 
 
 if __name__ == '__main__':
